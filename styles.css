@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #8A9EA0;
+
+}
+
+header {
+  background: #b5c6bd;
+  color: white;
+  padding: 0.1em 1.5em;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleTag {
+  font-weight: 300;
+  font-size: 2em;
+  color: #617068;
+
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #617068;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: 1em;
+}
+
+footer {
+  background: #b5c6bd;
+  color: #617068;
+  text-align: right;
+  padding: .4em;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+.footTag {
+  margin-right: 2em;
+font-size: .8em;
+
+
+}
