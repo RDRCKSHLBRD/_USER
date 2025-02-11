@@ -123,7 +123,9 @@ footer {
   background-color: #8A9EA0;
   border: 1px solid #ddd;
   border-radius: 1px;
+  color: #14467A;
   font-size: 1em;
+  font-weight: 100;
 }
 
 .user-form__submit-btn {
